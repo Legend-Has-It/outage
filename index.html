@@ -1,33 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legend</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/style.css">
-</head>
-<body>
-    <main class="flex flex-col items-center">
-        <figure>
-            <img src="./assets/cat.png" alt="Cat image">
-        </figure>
-        <h1>This is a CAT-astrophe.</h1>
-        <p>It's paw-ssible the website you are looking for is suffering an outage.
-            Our cool cats are getting all the bugs out of the system and plugging
-            the cables back in. They really need to stop sitting on the keyboards.</p>
-    </main>
-    <footer class="flex">
-        <div class="copy flex">
-            <div class="block">© 2022 Legend Secret Weapon</div>
-            <div class="block"><a href="#" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></div>
-            <div class="block"><a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></div>
-        </div>
-        <div class="made flex">
-            Proudly made by <a href="#"><img src="./assets/legend.png" alt="Legend"></a>
-        </div>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Legend</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex flex-col min-h-screen">
+        <main class="flex-grow px-5">
+            <div class="text-center max-w-xl mx-auto pt-14 2xl:text-lg">
+                <figure class="mb-10">
+                    <img
+                        src="https://raw.githubusercontent.com/Legend-Has-It/outage/main/assets/cat.png?token=GHSAT0AAAAAACHR3MOLA7TTNOPBIZJDXJRUZL7QDBA"
+                        alt="Cat image"
+                        class="mx-auto 2xl:w-auto w-52"
+                        width="302"
+                        height="232"
+                    />
+                </figure>
+                <h1
+                    class="text-3xl md:text-4xl 2xl:text-5xl font-bold italic mb-4"
+                    style="color: #4d1254"
+                >
+                    This is a CAT-astrophe.
+                </h1>
+                <p class="mb-4">
+                    It's paw-ssible the website you are looking for is suffering
+                    an outage. Our cool cats are getting all the bugs out of the
+                    system and plugging the cables back in. They really need to
+                    stop sitting on the keyboards.
+                </p>
+                <div
+                    class="flex items-center md:items-start justify-center gap-4 md:gap-10 flex-col md:flex-row"
+                >
+                    <p>
+                        <span class="text-xs uppercase mb-2 text-slate-400"
+                            >Phone us</span
+                        >
+                        <a href="tel:6472812501" class="block hover:underline"
+                            >+64 7 281 2501</a
+                        >
+                    </p>
+                    <p>
+                        <span class="text-xs uppercase mb-2 text-slate-400"
+                            >Email our helpdesk</span
+                        >
+                        <a
+                            href="mailto:hello@legendhasit.co.nz"
+                            class="block hover:underline"
+                            >hello@legendhasit.co.nz</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer
+            class="max-w-4xl mx-auto pt-6 pb-6 w-full border-t border-slate-300 mt-4"
+        >
+            <div class="flex item-center justify-center">
+                <span class="text-sm">Proudly made by</span>
+                <a href="#" class="block ml-2 mt-1"
+                    ><img
+                        src="https://raw.githubusercontent.com/Legend-Has-It/outage/main/assets/legend.png?token=GHSAT0AAAAAACHR3MOLLPUDZJ6HKZEJQTUOZL7QDCA"
+                        alt="Legend"
+                        width="79"
+                        height="19"
+                /></a>
+            </div>
+        </footer>
+    </body>
 </html>
